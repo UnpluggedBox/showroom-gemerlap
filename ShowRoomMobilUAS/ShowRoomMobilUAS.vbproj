@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B06914C1-329D-41F3-B810-20AB9D70CD8A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ShowRoomMobilUAS.My.MyApplication</StartupObject>
+    <RootNamespace>ShowRoomMobilUAS</RootNamespace>
+    <AssemblyName>ShowRoomMobilUAS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ShowRoomMobilUAS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ShowRoomMobilUAS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminBookingPage.Designer.vb">
+      <DependentUpon>AdminBookingPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminBookingPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPage.Designer.vb">
+      <DependentUpon>AdminPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUserPage.Designer.vb">
+      <DependentUpon>AdminUserPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUserPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminWarnaPage.Designer.vb">
+      <DependentUpon>AdminWarnaPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminWarnaPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuyPage.Designer.vb">
+      <DependentUpon>BuyPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BuyPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CarDetail.Designer.vb">
+      <DependentUpon>CarDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CarDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.vb">
+      <DependentUpon>LoginPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.vb">
+      <DependentUpon>MainPage.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PaymentPage.Designer.vb">
+      <DependentUpon>PaymentPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterPage.Designer.vb">
+      <DependentUpon>RegisterPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SHOWROOMDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SHOWROOMDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SHOWROOMDataSet.vb">
+      <DependentUpon>SHOWROOMDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdminBookingPage.resx">
+      <DependentUpon>AdminBookingPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPage.resx">
+      <DependentUpon>AdminPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUserPage.resx">
+      <DependentUpon>AdminUserPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminWarnaPage.resx">
+      <DependentUpon>AdminWarnaPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuyPage.resx">
+      <DependentUpon>BuyPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CarDetail.resx">
+      <DependentUpon>CarDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentPage.resx">
+      <DependentUpon>PaymentPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterPage.resx">
+      <DependentUpon>RegisterPage.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="SHOWROOMDataSet.xsc">
+      <DependentUpon>SHOWROOMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SHOWROOMDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SHOWROOMDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SHOWROOMDataSet.xss">
+      <DependentUpon>SHOWROOMDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shelby-cobra427.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apollo-IE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ferrari-599xxe.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peel-p50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ford-gt40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\volkswagen-touareg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porsche-macanturbo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porsche-918.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porsche_918spyder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoshowroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconorang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconorang2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconregister.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginiconfix.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginicon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logfix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminicon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refreshicon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin-settings-male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert-icon-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh+reload+update+icon-1320191166843452904.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-1432400-1211078.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update-vector-icon-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShoppingCart3-512.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

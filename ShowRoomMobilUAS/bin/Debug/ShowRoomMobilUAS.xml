@@ -1,0 +1,271 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ShowRoomMobilUAS
+</name>
+</assembly>
+<members>
+<member name="T:ShowRoomMobilUAS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.admin_settings_male">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.adminicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.apollo_IE">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.delete_1432400_1211078">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.ferrari_599xxe">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.ford_gt40">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.iconorang">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.iconregister">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.insert_icon_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.logfix">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.loginicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.logoshowroom">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.payment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.peel_p50">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.porsche_918spyder">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.porsche_macanturbo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.refresh_reload_update_icon_1320191166843452904">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.refreshicon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.shelby_cobra427">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.ShoppingCart3_512">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.update_vector_icon_256">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ShowRoomMobilUAS.My.Resources.Resources.volkswagen_touareg">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsBookingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsMobilDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsUserDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsWarnaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsBookingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsMobilRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsUserRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsWarnaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsBookingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsMobilRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsUserRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSet.MsWarnaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.MsBookingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.MsMobilTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.MsUserTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.MsWarnaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ShowRoomMobilUAS.SHOWROOMDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ShowRoomMobilUAS.SHOWROOMDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ShowRoomMobilUAS.SHOWROOMDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.TableAdapterManager.UpdateAll(ShowRoomMobilUAS.SHOWROOMDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ShowRoomMobilUAS.SHOWROOMDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
