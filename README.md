@@ -36,5 +36,5 @@ Admin Deleting Cars
 Admin Adding Cars
 ![Admin Adding Cars](https://thumbs.gfycat.com/DevotedLonelyIbadanmalimbe-size_restricted.gif)
 
-Buying Cars Demo
+Buying Cars Demo. jeckyaf is a User (buyer) and rubin is an Admin
 ![Buying Cars Demo](https://thumbs.gfycat.com/BountifulGrippingDragon-size_restricted.gif)
