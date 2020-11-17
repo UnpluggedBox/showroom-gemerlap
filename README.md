@@ -5,6 +5,7 @@ There will be no code documentation or road map for this project because this is
 I'm uploading this just to show off my projects for my resume.
 
 Project path: C:\Users\[username]\source\repos\ShowRoomMobilUAS
+
 Note: Not all features are shown.
 
 Homepage of the application
